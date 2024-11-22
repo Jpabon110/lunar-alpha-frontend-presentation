@@ -53,9 +53,9 @@ const Dashboard: React.FC = () => {
                         defaultValue={1}
                     >
                         <TabList className="custom-tabs tabs-container please">
-                            <Tab value={1} className={`tab ${selectedTab === 1 ? 'selected' : ''}`}>Taks</Tab>
-                            <Tab value={2} className={`tab ${selectedTab === 2 ? 'selected' : ''}`}>Members Crews</Tab>
-                            <Tab value={3} className={`tab ${selectedTab === 3 ? 'selected' : ''}`}>
+                            <Tab value={1} className={`tab ${selectedTab === 1 ? 'selected' : 'isNotSelected'}`}>Taks</Tab>
+                            <Tab value={2} className={`tab ${selectedTab === 2 ? 'selected' : 'isNotSelected'}`}>Members Crews</Tab>
+                            <Tab value={3} className={`tab ${selectedTab === 3 ? 'selected' : 'isNotSelected'}`}>
                                 Alerts
                                 <Box
                                     className="absolute top-[-8px] right-[-12px] bg-yellow-500 text-white rounded-full flex items-center justify-center w-6 h-6 text-sm font-bold shadow-lg"
